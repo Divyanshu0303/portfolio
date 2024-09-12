@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="divyanshu.css">
+    <script src="https://kit.fontawesome.com/9441e3e243.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------------------------------------ Home------------------------- -->
+
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/div.logo.jpg" class="logo" width="343" height="207">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Develepor</p>
+                <h1> Hi,i'm<span>Divyanshu</span> <br> Pandey</h1>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!----------------- about section---------------------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/div.user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there! I'm Divyanshu Pandey, a passionate web developer with a degree in Computer Science Engineering .
+                        With a solid foundation in computer science and a love for creating innovative web solutions, I specialize in building dynamic and user-friendly websites and applications.My expertise lies in  HTML, CSS, JavaScript, React, Node.js and I thrive on transforming complex problems into intuitive, functional designs.
+                        During my time at My college (Rungta college of Engineering and Technology), I honed my skills through various projects and coursework, including [graphical password authentication] and many more.
+                        What excites me most about web development is the constant evolution of technology and the opportunity to build tools that improve user experiences. Whether it's optimizing a website for performance or designing a seamless user interface, I'm dedicated to delivering high-quality results that exceed expectations. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Develepor</span><br>designing Web applications</li>
+                            <li><span>programming</span><br>Solving problems of data structure and Algorithm</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Database Management</span><br>Skills in SQL and MongoDB databases,databse design and management</li>
+                            <li><span>Cloud computing</span><br>Familiarity with cloud platforms like AWS , Azure or google cloud</li>
+                            <li><span>Problem-Solving and Analytic Thinking</span><br> critical for debugging,optimizing code,and solving Engineering problems</li>
+                            <li><span>Project management</span><br>planning,executing and managing projects,including time management,teamwork and leadership abilities</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>march,2024-june,2024 </span><br>web developer at TECHOCTANET SERVICE PVT LTD</li>
+                                <li><span> 2023</span><br> Technical lead at Engima(Tezos club) </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.TECH</span><br>Rungta College of Engineering and Technology</li>
+                            <li><span>Higher Secondary Examination</span><br>Awadhoot Bhagwan Ram College,Sasaram</li>
+                            <li><span>Secondary Examination</span><br>Pragya Niketan Public School Sasaram</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Services-------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="service-list">
+                <div>
+                    <h2>Web development</h2>
+                    <p>
+                        I am a full-stack web developer with experience in creating dynamic and responsive websites. Proficient in HTML, CSS, JavaScript, and various back-end technologies such as Node.js and PHP. My portfolio includes projects ranging from simple landing pages to complex web applications.
+                        <!-- <a href="#">learn more</a> -->
+
+                    </p>
+                </div>
+                <div>
+                    <h2>Custom Website Development</h2>
+                    <p>Tailored websites built from scratch to meet the specific needs of your business, ensuring a unique and user-friendly experience."</p>
+                </div>
+                <div>
+                    <h2>Website Maintenance & Updates</h2>
+                    <p>Offering ongoing support to keep your website up-to-date with the latest content, security patches, and performance optimisations.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- --------------portfolio------------- -->
+
+<div id="portfolio">
+   <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/20240901_014414.png">
+            <div class="layer">
+                <h3>E-commerce Websites</h3>
+                <p>Building online stores that are secure, easy to manage, and designed to increase sales. </p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/20240901_014056.png">
+            <div class="layer">
+                <h3>Web Application Development</h3>
+                <p>Creating full-fledged web applications that cater to your business needs, from user management to complex data processing.</p>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/20240901_014343.png">
+            <div class="layer">
+                <h3>Web Design</h3>
+                <p>Proficient in creating visually compelling and user-friendly designs for websites and applications, leveraging tools such as Adobe XD and Figma.</p>
+            </div>
+        </div>
+    
+    </div>
+   </div>
+</div>
+
+<!-- --------contact----- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>divyanshussm2023@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6201240994</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/divyanshu_pandey03?igsh=MXNuaTc4d243c3M5Nw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/divyanshu.pandey.96387"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/divyanshu-pandey-8357a0269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                
+                </div>
+                <a href="divyanshu.cv.docx" class="btn">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                  <input type="text" name="Name" placeholder="your name" required>  
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="Messsage" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Divyanshu. Made by Divyanshu Pandey </p>
+    </div>
+ </div>
+
+
+
+
+
+
+
+<!--------------------javascrript----------------------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
